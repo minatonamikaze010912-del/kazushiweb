@@ -17,7 +17,7 @@
             <h1>Will you be my girlfriend? </h1>
             <div class="buttons">
                 <button class="btn btn-yes" onclick="goToStep2()">Yes</button>
-                <button class="btn btn-no" onmouseover="moveButton(this)" onclick="moveButton(this)">No</button>
+                <button type="button" class="btn btn-no" onmouseover="moveButton(event,this)" onclick="moveButton(event,this)">No</button>
             </div>
         </div>
 
@@ -27,7 +27,7 @@
                 <h1>Are you sure you want to be my girlfriend????</h1>
                 <div class="buttons">
                 <button class="btn btn-yes" onclick="goToStep3()">Yes, 100% Sure</button>
-                <button class="btn btn-no" onmouseover="moveButton(this)" onclick="moveButton(this)">Let me think...</button>
+                <button type="button" class="btn btn-no" onmouseover="moveButton(event,this)" onclick="moveButton(event,this)">Let me think...</button>
             </div>
         </div>
 
@@ -42,7 +42,7 @@
 
             <div class="final-message">
                 <img src="cat.gif" alt="Cute Cat in Love" class="cat-img">
-                <p>Yay! You're my girlfriend now! ❤️</p>
+                <p>You're my girlfriend now! ❤️</p>
             </div>     
     </div>
     
@@ -50,3 +50,5 @@
 </body>
 </html>
             
+
+
